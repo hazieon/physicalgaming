@@ -1,0 +1,27 @@
+/* .stageContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 10vw);
+  grid-gap: 15px;
+}
+
+.stageBox {
+  width: 100vw;
+  height: 50vh;
+} */
+
+/* object-fit: cover; */
+
+.stageBox {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  /* grid-template-rows: repeat(2, 50vw); */
+  grid-gap: 0px;
+  overflow: hidden;
+}
+/* 
+.stageBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */

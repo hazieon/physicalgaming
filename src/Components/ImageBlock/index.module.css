@@ -1,0 +1,54 @@
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageBlockBox {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+/* 
+.imageBlockBox {
+  width: 50vw;
+  height: 50vh;
+} */
+
+/* .imageBlock {
+  width: auto;
+  height: auto;
+  max-width: 50vw;
+  max-height: 100vh;
+} */
+
+.imageBlockBox {
+  display: flex;
+  width: auto;
+  max-width: 50vw;
+  height: 50vh;
+
+  background-color: rgba(0, 0, 0, 0.87);
+  z-index: 2;
+  overflow: hidden;
+}
+
+.imageBlock {
+  z-index: 1;
+  opacity: 0.55;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.imageBlock:hover {
+  opacity: 1;
+  filter: saturate(1.5);
+}
+
+/* object-fit: cover; */
