@@ -19,9 +19,9 @@ function App() {
                   <Logo />
                 </Link>
               </li>
-              <Link to="/creativity">
+              <Link to="/News">
                 <li className="pages" id="creative">
-                  Creativity
+                  News
                 </li>
               </Link>
             </ul>

@@ -6,7 +6,7 @@ function Logo() {
   return (
     <div className={styles.LogoContainer}>
       <div className={styles.LogoBox}>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} class={styles.logo} alt="logo" />
       </div>
     </div>
   );

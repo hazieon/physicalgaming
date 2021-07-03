@@ -17,7 +17,20 @@ function Stage() {
   return (
     <div className={styles.stageContainer}>
       <div className={styles.stageBox}>
-        {content.map((item, index) => {
+        <div className={styles.topLeft}>
+          <ImageBlock src={content[0].src} />
+        </div>
+        <div className={styles.topRight}>
+          <ImageBlock src={content[1].src} />
+        </div>
+        <div className={styles.bottomLeft}>
+          <ImageBlock src={content[2].src} />
+        </div>
+        <div className={styles.bottomRight}>
+          <ImageBlock src={content[3].src} />
+        </div>
+
+        {/* {content.map((item, index) => {
           if (item.src === stage.src) {
             return "";
             //popup stage image
@@ -29,7 +42,7 @@ function Stage() {
             return "";
             //video box
           }
-        })}
+        })} */}
         {/* {stage.type === "image" ? <ImageBlock src={stage.src} /> : ""}
         {stage.type === "image" ? <ImageBlock src={stage.src} /> : ""}
         {stage.type === "image" ? <ImageBlock src={stage.src} /> : ""}
