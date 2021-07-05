@@ -10,15 +10,16 @@ function App() {
     <div className="App">
       {/* <Logo />
       <Landing /> */}
+      <Logo />
       <Router>
         <div>
           <nav className="nav-bar">
             <ul>
-              <li>
+              {/* <li>
                 <Link to="/">
                   <Logo />
                 </Link>
-              </li>
+              </li> */}
               <Link to="/News">
                 <li className="pages" id="creative">
                   News
